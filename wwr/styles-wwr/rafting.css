@@ -25,6 +25,7 @@ h1,h2 {
 }
 
 p {
+    position: relative;
     font-size: 1.1rem;
     line-height: 1.6;
     color: var(--accent2-color); 
