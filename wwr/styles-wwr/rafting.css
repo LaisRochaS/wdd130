@@ -5,12 +5,12 @@
     --accent2-color: #18394D;
 }
 .poppins-regular {
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
+    --font-family: "Poppins", serif;
+    --font-weight: 400;
+    --font-style: normal;
   }
-  body{
-    font-family: "Poppins", serif;
+body{
+    font-family: var(--font-family);
     font-weight: 400;
     font-style: normal;
 }
@@ -22,14 +22,14 @@
 main {
     max-width: min-content;
     margin: 2rem auto;
-    font-family: font-family;
+    font-family: var(--font-family);
     background-color: var(--primary-color);
     padding: 1rem;
 }
 
 h1,h2 {
     color: var(--accent2-color); 
-    font-family:font-family;
+    font-family:var(--font-family);
     margin-bottom: 20px;
     position: relative;
 }
