@@ -3,10 +3,12 @@
     --secondary-color: #A4876A;
     --accent1-color: #B0C9E1;
     --accent2-color: #18394D;
-    --font-family: 'Poppins', serif;
-    --font-weight: 400;
-    --font-style: normal;
 }
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 .logo-box {
     max-width: min-content;
     margin: 2rem auto;
@@ -15,14 +17,14 @@
 main {
     max-width: min-content;
     margin: 2rem auto;
-    font-family: (var(--font-family));
+    font-family: font-family;
     background-color: var(--primary-color);
     padding: 1rem;
 }
 
 h1,h2 {
     color: var(--accent2-color); 
-    font-family: (var(--font-family));
+    font-family:font-family;
     margin-bottom: 20px;
     position: relative;
 }
