@@ -3,14 +3,14 @@
     --secondary-color: #A4876A;
     --accent1-color: #B0C9E1;
     --accent2-color: #18394D;
-    --heading-family: "Poppins", serif;
-    --font-family:"Roboto", serif;
+    --font-family-heading: 'Poppins', sans-serif;
+    --font-family-body: 'Roboto', sans-serif;
 }
-body{
-    font-family:"Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
+
+body {
+    font-family: var(--font-family-body);  
 }
+
 .logo-box {
     max-width: min-content;
     margin: 2rem auto;
@@ -18,15 +18,14 @@ body{
 }
 main {
     max-width: min-content;
-    margin: 2rem auto;
-    font-family:"Poppins", serif;
+    font-family: var(--font-family-body);
     background-color: var(--primary-color);
     padding: 1rem;
 }
 
 h1,h2 {
     color: var(--accent2-color); 
-    font-family:"Roboto", serif;
+    font-family: var(--font-family-heading);
     margin-bottom: 20px;
     position: relative;
 }
