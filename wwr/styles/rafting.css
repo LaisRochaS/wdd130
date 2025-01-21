@@ -56,6 +56,8 @@ p {
 }
 
 .hero img {
+    float: right;
+    margin-left: 20px;
     display: block;
     width: 100%;
     height: auto;
@@ -87,6 +89,7 @@ p {
 }
 
 .hero article img {
+    float: right;
     width: 80px; 
     height: auto;
     margin-left: 10px;
@@ -104,10 +107,13 @@ p {
     justify-content: center;
     gap: 20px;
     padding: 20px 0;
+    text-decoration: none;
 }
-
-.social-media a {
-    display: inline-block;
+.sociallinks a {
+    text-decoration: none;
+}
+.sociallinks a:hover {
+    opacity: 0.7; 
 }
 footer{
     text-align: center;
