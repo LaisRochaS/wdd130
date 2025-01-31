@@ -177,7 +177,7 @@ figure {
 }
 
 figcaption {
-    background-color: #0F0E0E80;;
+    background-color: #000000b3;
     color: var(--primary-color);
     padding: 5px;
     font-size: 1rem;
