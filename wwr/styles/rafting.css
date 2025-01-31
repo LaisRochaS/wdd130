@@ -176,7 +176,7 @@ figure {
 }
 
 figcaption {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(15, 14, 14, 0.5);
     color: var(--primary-color);
     padding: 5px;
     font-size: 1rem;
