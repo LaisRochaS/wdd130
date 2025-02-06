@@ -116,12 +116,10 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
-/* Contact Form */
-/* Get in Touch Section - Positioned under the Map */
 .contact-form {
     position: relative;
-    bottom: 0px; /* 30px from the bottom of the container */
-    left: 30px; /* 30px from the left of the container */
+    bottom: 0px; 
+    left: 30px; 
     width: 100%;
     max-width: 500px; 
     background-color: #f9f9f9;
