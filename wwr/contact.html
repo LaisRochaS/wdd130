@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description" content="Get in touch with White Water Rafting for inquiries, reservations, or feedback. Find our contact information and reach out to us.">    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Lais Rocha">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-box">
+            <img src="images-wwr/z-wwr-oars.png" alt="Rafting logo">
+        </div>
+        <h1>White Water Rafting</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Company Information -->
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 123 Adventure Rd, White Water, USA</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> info@rafting.com</p>
+            <h3>Our Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <!-- Employee Profiles -->
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employee-profile">
+                <figure>
+                <img src="images-wwr/HKstrategies-2397-1-2.jpg" alt="Employee 1">
+                <figcaption>John Doe - Customer Support</figcaption>
+                </figure>
+                <figure>
+                <img src="images-wwr/HKstrategies-791-1.jpg" alt="Employee 2">
+                <figcaption>Jane Smith - Adventure Guide</figcaption>
+                </figure>
+                <figure>
+                <img src="images-wwr/Option-3-1024x683.webp" alt="Employee 3">
+                <figcaption>Michelle Johnson - Operations</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message Purpose:</label>
+                <input type="radio" id="general" name="message-type" value="General Inquiry" required> General Inquiry
+                <input type="radio" id="reservation" name="message-type" value="Reservation Question" required> Reservation Question
+                <input type="radio" id="suggestion" name="message-type" value="Website Suggestion" required> Website Suggestion
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©️ 2025 White Water Rafting | Lais Rocha Watson</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images-wwr/Social-media_Facebook-64.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images-wwr/X-64.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images-wwr/1_Instagram_colored_svg_1-64.webp" alt="Instagram">
+            </a>
+        </nav>
+        <p><a href="https://app.moqups.com/cxwWFgnjoqm7nLOlYJ6aieriWXK6pipE/view/page/ad64222d5" target="_blank">View Contact Us Wireframe</a></p>
+    </footer>
+</body>
+</html>

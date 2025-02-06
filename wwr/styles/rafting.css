@@ -116,6 +116,70 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
+/* Contact Form */
+/* Get in Touch Section - Positioned under the Map */
+.contact-form {
+    position: relative;
+    bottom: 0px; /* 30px from the bottom of the container */
+    left: 30px; /* 30px from the left of the container */
+    width: 100%;
+    max-width: 500px; 
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Employee Profiles */
+.employee-profile {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+    overflow-x: auto; 
+    text-align: center;
+}
+
+.employee-profile img {
+    width: 115px;
+    height: 110px;
+    border-radius: 80%;
+}
+
 
 .history {
     display: flex;
@@ -159,18 +223,25 @@ main {
     margin-bottom: 20px;
 }
 
-/* Adventures Section (Gallery) */
-.adventures {
-    padding: 20px;
-    text-align: center;
-}
-
 .adventure-gallery {
     display: flex;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    justify-content: space-between;
     gap: 20px;
-    justify-content: space-around;
+    overflow-x: auto;  
 }
+
+.adventure-gallery figure {
+    margin: 0;
+    width: 18%;  
+    min-width: 150px;  
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 
 figure {
     margin: 0;
